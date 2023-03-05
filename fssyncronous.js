@@ -6,8 +6,7 @@ const first=readFileSync('./content/first.txt','utf8');
 // this is use to create a new file that append the output of the 
 // given file.
 writeFileSync('./content/result-sync.txt',
-`here is the result : ${first}`,
-{flag: 'a'}
+`here is the result : ${first}`
 );
 
 console.log(first);
